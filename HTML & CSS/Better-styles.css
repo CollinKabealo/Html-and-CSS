@@ -1,0 +1,56 @@
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+font-family: Georgia, "Times New Roman", serif;
+font-size: 18px;
+line-height: 1.5;
+}
+}
+h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 22pt; 
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
+}
+
+nav ul li a {
+  color: white; 
+  font-family: "Lucida Handwriting", cursive; 
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+margin-bottom: 10px;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+figure {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+}
